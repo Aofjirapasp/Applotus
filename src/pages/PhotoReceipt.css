@@ -1,0 +1,129 @@
+
+.Container-fluid{
+    height: 135vh;
+    left: 0px;
+    right: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.upload__image-wrapper{
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.upload-img{
+    position: relative;
+    border: 3px dashed #00BCB4;
+    border-radius: 10px;
+    background-position: center;
+    background-position-y: center;
+    background-image: url('../images/img-receipt.svg');
+    background-repeat: no-repeat;
+    background-color: #fff;
+    /* background-size: cover; */
+    width: 388px;
+    height: 388px;
+    /* background-image:none; */
+}
+
+.upload-img:hover {
+    border: 3px dashed #F9BE00;
+    color: #00BCB4;
+  }
+  
+
+.img-receipt{
+    background-position: center;
+    background-position-y: center;
+    background-image: url('../images/img-receipt.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+    z-index: 1;
+}
+
+
+.image-upload-wrap{
+margin-top: 10px;
+  border: 3px dashed #a9b0b8;
+  position: relative;
+  border-radius: 10px;
+  /* width: 400px; */
+  height: 235px;
+  margin-bottom: 10px;
+}
+
+
+.upload-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border: 3px dashed #00BCB4;
+    border-radius: 10px;
+    background-position: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: cover;
+    width: 388px;
+    height: auto;
+    margin: auto;
+    /* background-image:none; */
+}
+
+.upload-card:hover {
+    border: 3px dashed #F9BE00;
+    color: #00BCB4;
+  }
+
+.img-preview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-position-y: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.user-post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-position-y: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .upload-img{
+        position: relative;
+        border: 3px dashed #00BCB4;
+        border-radius: 10px;
+        background-position: center;
+        background-position-y: center;
+        background-image: url('../images/img-receipt.svg');
+        background-repeat: no-repeat;
+        background-color: #fff;
+        /* background-size: cover; */
+        width: 300px;
+        height: 300px;
+        /* background-image:none; */
+    }
+
+}
