@@ -1,1 +1,37 @@
 
+
+button.btn-login{
+    background-color: #00BCB4;
+    border-radius: 5px;
+    border: white;
+    width: 400px;
+    height: 40px;
+    /* transition: .2s ease-in-out 0s; */
+    transition: .4s ease-in-out 0s;
+}
+
+button.btn-login:hover{
+    cursor: pointer;
+    background-color: #46b6b2;
+    border: #d2d4d4;
+    /* transform: scale(1.1); */
+    -ms-transorm-origin-y: scale(1.2);
+    transform: scale(1.06);
+    color: rgb(255, 255, 255);
+}
+
+
+@media screen and (max-width: 375px) {
+    .btn-login{
+    width: 350px;
+    height: 40px;
+   }
+}
+
+
+@media screen and (min-width: 430px) {
+    .btn-login{
+    width: 410px;
+    height: 40px;
+   }
+}
